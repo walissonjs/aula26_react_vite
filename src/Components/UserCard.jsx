@@ -1,4 +1,4 @@
-import style from './UserCard.module.css'; {/* style é um alias = apelido, ou seja, aplicamos um subtítulo para variável que vai receber os atributos de css, observe cada situação no código abaixo */}
+import style from './UserCard.module.css';
 
 const UserCard = ({
     name,
@@ -27,5 +27,3 @@ const UserCard = ({
     );
 }
 export default UserCard;
-
-{/* Observe que os atributos {style.'''} refere-se a importações dinâmicas de estilos CSS. A importação deve ser apontada na primeira linha (neste caso) */}
